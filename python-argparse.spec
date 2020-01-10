@@ -5,7 +5,7 @@
 Summary:       Optparse inspired command line parser for Python
 Name:          python-argparse
 Version:       1.2.1
-Release:       2.1%{?dist}
+Release:       2%{?dist}
 License:       Python
 Group:         Development/Languages
 URL:           http://code.google.com/p/argparse/
@@ -54,9 +54,6 @@ PYTHONPATH=../ %{__python} test_%{oname}.py
 %{python_sitelib}/*
 
 %changelog
-* Tue Sep 11 2012 Alan Pevec <apevec@redhat.com> 1.2.1-2.1
-- Import to RHEL 6.4 (rhbz#851798)
-
 * Wed Jun 29 2011 Toshio Kuratomi <toshio@fedoraproject.org> - 1.2.1-2
 - Include LICENSE.txt file
 
